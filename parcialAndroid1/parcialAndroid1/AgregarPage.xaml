@@ -5,40 +5,55 @@
              x:Class="parcialAndroid1.AgregarPage">
     <ContentPage.Content>
         <ScrollView>
-            <StackLayout Padding="20" Margin ="10,0">
+            <StackLayout Padding="30" Margin ="30,0">
                 
                 <Label FontSize="Large"
                        FontAttributes ="Bold"
                        Text="Registro nuevo equipo" 
                        HorizontalOptions="Center">
                 </Label>
+
+                <Image 
+                    Source="pc"
+                    WidthRequest="200"
+                     Margin ="0,10">
+                    
+                </Image>
                 <!--Cajon Nombre equipo-->
                 <Label 
                     FontAttributes ="Bold"
+                    FontSize="Large"
                     Text ="Nombre:">
                 </Label>
                 <Entry 
-                    Placeholder ="Nombre Equipo">
+                    Placeholder ="Nombre Equipo"
+                    FontSize="Medium">
                 </Entry>
 
                 <!--Cajon Caracteristicas de equipo-->
                 <Label Text ="Carasteristicas:" 
-                       FontAttributes ="Bold">
+                       FontAttributes ="Bold"
+                       FontSize="Large">
+                        
                 </Label>
                 <Entry 
-                    Placeholder ="Caracteristica Equipo">
+                    Placeholder ="Caracteristica Equipo"
+                    FontSize="Medium">
+
                 </Entry>
 
                 <!--Cajon Datos del Empleado-->
                 <Label 
                     Text ="Empleado:" 
-                    FontAttributes ="Bold">
+                    FontAttributes ="Bold"
+                    FontSize="Large">
                 </Label>
                 <Entry 
-                    Placeholder ="cod. Empleado">
+                    Placeholder ="Cod. Empleado"
+                    FontSize="Medium">
                 </Entry>
                 <Button 
-                    BackgroundColor="Navy"
+                    BackgroundColor ="#3088ea"
                     TextColor="White"
                     BorderRadius="20"
                     Text=" Agregar">

@@ -156,4 +156,7 @@
       <Name>parcialAndroid1</Name>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\pc.png" />
+  </ItemGroup>
 </Project>

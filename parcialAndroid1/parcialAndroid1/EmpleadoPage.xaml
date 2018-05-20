@@ -6,6 +6,7 @@
     <ContentPage.Content>
         <StackLayout Padding="20">
             <Label Text="Empleados Dracarys S.A."  HorizontalOptions="Center"></Label>
+            
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
