@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage Title="Equipo" xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="parcialAndroid1.Equipo">
+    <ContentPage.Content>
+        <StackLayout Padding="20">
+            <Label Text="Equipos Dracarys" HorizontalOptions="Center"></Label>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>C:\Users\Luds\Source\Repos\parcialAndroid1\parcialAndroid1\parcialAndroid1\Equipo.xaml

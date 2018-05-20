@@ -4,11 +4,6 @@
              xmlns:local="clr-namespace:parcialAndroid1"
              x:Class="parcialAndroid1.MainPage">
 
-    <ContentPage Title="Equipo">
-              
-    </ContentPage>
 
-    <ContentPage Title="Agregar">
-        
-    </ContentPage>
+
 </TabbedPage>

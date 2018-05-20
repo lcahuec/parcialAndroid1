@@ -12,6 +12,9 @@ namespace parcialAndroid1
 		public MainPage()
 		{
 			InitializeComponent();
+            Children.Add(new Equipo());
+            Children.Add(new AgregarPage());
+            Children.Add(new EmpleadoPage());
 		}
 	}
 }
