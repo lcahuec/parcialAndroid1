@@ -1,4 +1,8 @@
 using System;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
@@ -11,7 +15,7 @@ namespace parcialAndroid1
         {
             InitializeComponent();
 
-            MainPage = new NavigationPage(MainPage);
+            MainPage = new parcialAndroid1.MainPage();
 		}
 
 		protected override void OnStart ()
