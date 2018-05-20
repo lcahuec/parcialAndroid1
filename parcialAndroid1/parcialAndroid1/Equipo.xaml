@@ -4,7 +4,7 @@
              x:Class="parcialAndroid1.Equipo">
     <ContentPage.Content>
         <StackLayout Padding="20">
-            <Label Text="Equipos Dracarys" HorizontalOptions="Center"></Label>
+            <Label Text="Equipos Dracarys S.A." HorizontalOptions="Center"></Label>
         </StackLayout>
     </ContentPage.Content>
-</ContentPage>C:\Users\Luds\Source\Repos\parcialAndroid1\parcialAndroid1\parcialAndroid1\Equipo.xaml
+</ContentPage>

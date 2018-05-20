@@ -1,11 +1,51 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<ContentPage Title="Agregar" xmlns="http://xamarin.com/schemas/2014/forms"
+<ContentPage Title="Agregar"
+             xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="parcialAndroid1.AgregarPage">
     <ContentPage.Content>
-        <StackLayout>
-            <Label Text="Registro nuevo equipo"></Label>
-            
-        </StackLayout>
+        <ScrollView>
+            <StackLayout Padding="20" Margin ="10,0">
+                
+                <Label FontSize="Large"
+                       FontAttributes ="Bold"
+                       Text="Registro nuevo equipo" 
+                       HorizontalOptions="Center">
+                </Label>
+                <!--Cajon Nombre equipo-->
+                <Label 
+                    FontAttributes ="Bold"
+                    Text ="Nombre:">
+                </Label>
+                <Entry 
+                    Placeholder ="Nombre Equipo">
+                </Entry>
+
+                <!--Cajon Caracteristicas de equipo-->
+                <Label Text ="Carasteristicas:" 
+                       FontAttributes ="Bold">
+                </Label>
+                <Entry 
+                    Placeholder ="Caracteristica Equipo">
+                </Entry>
+
+                <!--Cajon Datos del Empleado-->
+                <Label 
+                    Text ="Empleado:" 
+                    FontAttributes ="Bold">
+                </Label>
+                <Entry 
+                    Placeholder ="cod. Empleado">
+                </Entry>
+                <Button 
+                    BackgroundColor="Navy"
+                    TextColor="White"
+                    BorderRadius="20"
+                    Text=" Agregar">
+                </Button>
+
+            </StackLayout>
+        </ScrollView>
+        
     </ContentPage.Content>
 </ContentPage>
